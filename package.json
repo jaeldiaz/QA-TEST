@@ -5,7 +5,7 @@
   "main": "index.js",
     "scripts": {
     "test:cucumber": "cucumber-js",
-    "test:screenplay": "playwright test test-screenplay/"
+    "test:screenplay": "playwright test test-screenplay/ --reporter=html"
   },
   "keywords": [],
   "author": "",
