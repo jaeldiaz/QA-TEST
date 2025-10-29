@@ -41,7 +41,7 @@ jobs:
     name: Run Playwright Tests
     runs-on: ubuntu-latest
     timeout-minutes: 60
-    needs: cucumber-tests  # opcional, corre después de Cucumber
+    needs: cucumber-tests  
 
     steps:
       - name: Checkout repository
